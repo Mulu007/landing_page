@@ -1,6 +1,6 @@
-import image1 from "../images/download.png";
-import image2 from "../images/help-desk-icon-8.png";
-import image3 from "../images/policiesicon.jpeg";
+import image1 from "../images/save.png";
+import image2 from "../images/customer-service.png";
+import image3 from "../images/policy.png";
 
 
 

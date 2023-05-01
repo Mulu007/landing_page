@@ -6,12 +6,16 @@ const Hero = () => {
     const [images] = useState(Data)
   return (
     <div className="flex min-h-screen items-center justify-center ">
-      <div className="grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-3">
+      <div className="grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-3 ">
         {images.map((item) => (
-          <div className="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
-            <div key={item.id} className="h-96 w-72 ">
+          <div className="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shaodw-black/30  ">
+            <div key={item.id} 
+            // className="h-96 w-72 "
+            className='rounded-full h-96 w-72 '
+            >
               <img
-                className="h-full w-full object-cover transition-transform duration-500  group-hover:scale-125"
+                className=" object-cover transition-transform duration-500 "
+                // className=''
                 // className="w-11 h-11 shrink-0 grow-0 rounded-full bg-green-300 text-green-700"
                 src={item.image}
                 alt={item.name}
