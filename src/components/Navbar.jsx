@@ -10,7 +10,7 @@ const Navbar = () => {
 
   return (
     <div className='flex justify-between items-center h-44 max-w-[1240px] mx-auto px-4'>
-      <img className="object-cover relative  border border-gray-100 shadow-xl max-w-xl h-auto" src='https://www.waterford.sz/logos/WKUWCSALogo.png'/>
+      <img className="object-cover relative  border border-gray-100 shadow-xl max-w-full xl:max-w-xl h-auto" src='https://www.waterford.sz/logos/WKUWCSALogo.png'/>
 
       <ul className='hidden md:flex cursor-pointer '>
         <li className='p-4 '>Home</li>
